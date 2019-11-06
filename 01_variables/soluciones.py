@@ -12,9 +12,8 @@
 """
 
 nombre = input("Ingrese su nombre: ")
-hoy = 2019
-nacimiento = input("Ingrese su año de nacimiento: ")
-edad = hoy - nacimiento
+nacimiento = int(input("Ingrese su año de nacimiento: ")) 
+edad = 2019 - nacimiento
 
 print(f"Hola {nombre} de {edad} años")
 
